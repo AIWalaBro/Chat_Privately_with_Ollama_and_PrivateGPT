@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# version
+pyproject.toml
+
 # C extensions
 *.so
 # venv
