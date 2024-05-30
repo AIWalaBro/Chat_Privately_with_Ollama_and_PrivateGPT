@@ -23,6 +23,15 @@ ollama pull mistral
 mkdir source_documents
 ```
 
+### Step5: run the ingest.py file; on window after running it will look like
+Creating new vectorstore
+Loading documents from source_documents
+Loading new documents: 100%|██████████████████████| 1/1 [00:12<00:00, 12.35s/it]
+Loaded 186 new documents from source_documents
+Split into 676 chunks of text (max. 500 tokens each)
+Creating embeddings. May take some minutes...
+Ingestion complete! You can now run privateGPT.py to query your documents
+
 #### Step 6: Run this command 
 ```bash
 python privateGPT.py
